@@ -1,0 +1,55 @@
+========================================================================
+GUÍA PARA SUBIR FOTOGRAFÍAS - JOYAS Y GEMAS EVEREST
+========================================================================
+
+Las fotografías de la página web ahora están vinculadas directamente a las 
+subcarpetas del proyecto.
+
+Para que las imágenes se carguen automáticamente en la página, solo debes 
+guardar tus fotos en las carpetas correspondientes con los siguientes nombres:
+
+------------------------------------------------------------------------
+1. CARPETA: JOYERÍA PERSONALIZADA
+------------------------------------------------------------------------
+- Foto 1 (Anillo a Medida): 
+  Guardar como: 1.jpg (o 1.png, 1.webp, 1.jpeg)
+- Foto 2 (Cadena & Dije Personalizado): 
+  Guardar como: 2.jpg (o 2.png, 2.webp, 2.jpeg)
+
+------------------------------------------------------------------------
+2. CARPETA: ANILLOS DE COMPROMISO
+------------------------------------------------------------------------
+- Foto 1 (Solitario Corona Everest): 
+  Guardar como: 1.jpg (o 1.png, 1.webp, 1.jpeg)
+- Foto 2 (Solitario Esmeralda Real Muzo): 
+  Guardar como: 2.jpg (o 2.png, 2.webp, 2.jpeg)
+- Foto de Portada/Hero (Opcional): 
+  Guardar como: destacado.jpg (o se usará automáticamente 1.jpg)
+
+------------------------------------------------------------------------
+3. CARPETA: ARGOLLAS DE MATRIMONIO
+------------------------------------------------------------------------
+- Foto 1 (Argollas Alianza Eterna 18K): 
+  Guardar como: 1.jpg (o 1.png, 1.webp, 1.jpeg)
+- Foto 2 (Argollas Dúo Florentino Bicolor): 
+  Guardar como: 2.jpg (o 2.png, 2.webp, 2.jpeg)
+
+------------------------------------------------------------------------
+4. CARPETA: PIEDRAS PRECIOSAS
+------------------------------------------------------------------------
+- Foto 1 (Colgante Gota Celeste Chivor): 
+  Guardar como: 1.jpg (o 1.png, 1.webp, 1.jpeg)
+- Foto 2 (Aretes Gota Verde Imperial Muzo): 
+  Guardar como: 2.jpg (o 2.png, 2.webp, 2.jpeg)
+- Foto Sección Esmeraldas (Opcional): 
+  Guardar como: esmeralda.jpg (o se usará automáticamente 1.jpg)
+
+========================================================================
+NOTAS IMPORTANTES:
+========================================================================
+• Formato recomendado: Cuadradas (proporción 1:1) de al menos 800x800 px.
+• Formatos compatibles: .jpg, .jpeg, .png, .webp (mayúsculas o minúsculas).
+• Si abres la página mientras no hay fotos en las carpetas, verás un elegante 
+  recuadro indicador que te muestra exactamente la ruta donde debe ir cada foto, 
+  e incluso tiene un botón de 'Elegir archivo local' para probar fotos de inmediato.
+========================================================================

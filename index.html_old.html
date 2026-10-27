@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyas y Gemas Everest | Alta Joyería & Esmeraldas Colombianas</title>
+    
+    <!-- Meta tags para SEO y compartir en WhatsApp / Redes Sociales -->
+    <meta name="description" content="Joyas y Gemas Everest: Alta joyería en Colombia. Diseños exclusivos en Oro de 18K certificado y esmeraldas naturales de Muzo y Chivor. Envíos asegurados a todo el país.">
+    <meta property="og:title" content="Joyas y Gemas Everest | Alta Joyería Colombiana">
+    <meta property="og:description" content="Elegancia, gemas auténticas y diseños exclusivos en Oro 18K que perduran para siempre.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+    <meta name="theme-color" content="#FAF8F5">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Cinzel (Títulos de Lujo) & Montserrat (Textos Claros) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    
+    <!-- Configuración personalizada de Tailwind para Paleta Luminosa de Lujo -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ivory: {
+                            50: '#FFFFFF',
+                            100: '#FAF8F5',
+                            200: '#F4EFE8',
+                            300: '#EBE4DA',
+                            400: '#DED3C4',
+                            500: '#C7B9A5',
+                        },
+                        champagne: {
+                            100: '#FDFBF7',
+                            200: '#F6EEDB',
+                            300: '#EADBBF',
+                            400: '#D8BF95',
+                            500: '#C5A059',
+                            600: '#B08841',
+                            700: '#8E6B2E',
+                            800: '#6E5122',
+                        },
+                        colombianEmerald: {
+                            50: '#F0FDF6',
+                            100: '#DCFCE9',
+                            200: '#BBF7D2',
+                            600: '#0F764F',
+                            700: '#0B6140',
+                            800: '#074830',
+                            900: '#043422',
+                        }
+                    },
+                    fontFamily: {
+                        serifLuxury: ['Cinzel', 'serif'],
+                        sansClean: ['Montserrat', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft-luxury': '0 10px 35px -5px rgba(197, 160, 89, 0.08), 0 4px 15px -3px rgba(0, 0, 0, 0.03)',
+                        'gold-glow': '0 8px 25px -4px rgba(197, 160, 89, 0.25)',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .font-serif-luxury { font-family: 'Cinzel', serif; }
+        .font-sans-clean { font-family: 'Montserrat', sans-serif; }
+        
+        /* Gradiente dorado champán elegante */
+        .text-gold-champagne {
+            background: linear-gradient(135deg, #B08841 0%, #C5A059 40%, #8E6B2E 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .champagne-button {
+            background: linear-gradient(135deg, #C5A059 0%, #B08841 100%);
+            color: #FFFFFF;
+            transition: all 0.3s ease;
+        }
+        .champagne-button:hover {
+            box-shadow: 0 8px 25px rgba(197, 160, 89, 0.35);
+            transform: translateY(-2px);
+        }
+
+        /* Paneles blancos y translúcidos claros */
+        .glass-panel-light {
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid rgba(222, 211, 196, 0.7);
+        }
+
+        /* Animación suave para modales */
+        dialog[open] {
+            animation: fadeIn 0.25s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.97); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-[#FAF8F5] text-stone-800 font-sans-clean selection:bg-champagne-300 selection:text-stone-900 antialiased">
+
+    <!-- BARRA SUPERIOR DE CONFIANZA (COLOMBIA) -->
+    <aside aria-label="Beneficios y envíos en Colombia" class="bg-[#F4EFE8] border-b border-[#E8DFC0]/40 text-[11px] md:text-xs text-stone-700 py-2.5 px-4 text-center font-medium tracking-wide">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-x-6 gap-y-1">
+            <span class="flex items-center gap-1.5 font-semibold text-colombianEmerald-700">
+                <svg class="w-3.5 h-3.5 text-colombianEmerald-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+                Esmeraldas Colombianas 100% Naturales Certificadas
+            </span>
+            <span class="hidden md:inline text-stone-300">•</span>
+            <span class="flex items-center gap-1.5 text-stone-600">
+                <svg class="w-3.5 h-3.5 text-champagne-600" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
+                    <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
+                </svg>
+                Oro 18K Ley 750 Garantizado
+            </span>
+            <span class="hidden md:inline text-stone-300">•</span>
+            <span class="flex items-center gap-1.5 text-stone-600">
+                <span>🇨🇴</span> Envíos asegurados a toda Colombia (Bogotá, Medellín, Cali, Barranquilla)
+            </span>
+        </div>
+    </aside>
+
+    <!-- NAVEGACIÓN PRINCIPAL -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#EBE4DA] transition-all duration-300 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Logo Everest -->
+            <a href="#" class="flex items-center gap-3 group" aria-label="Ir al inicio">
+                <div class="w-10 h-10 rounded-full border border-champagne-400/60 flex items-center justify-center bg-[#FAF8F5] group-hover:border-champagne-600 transition-colors shadow-sm">
+                    <span class="font-serif-luxury text-champagne-600 font-bold text-lg">E</span>
+                </div>
+                <div>
+                    <span class="font-serif-luxury tracking-widest text-xl md:text-2xl font-bold text-gold-champagne block leading-none">
+                        EVEREST
+                    </span>
+                    <span class="text-[9px] uppercase tracking-[0.25em] text-stone-500 block mt-1 font-medium">
+                        Alta Joyería &bull; Colombia
+                    </span>
+                </div>
+            </a>
+
+            <!-- Enlaces de navegación desktop -->
+            <nav class="hidden md:flex items-center space-x-8 text-xs lg:text-sm font-medium tracking-wider uppercase text-stone-600">
+                <a href="#catalogo" class="hover:text-champagne-600 transition-colors">Colecciones</a>
+                <a href="#esmeraldas" class="hover:text-colombianEmerald-700 transition-colors flex items-center gap-1.5">
+                    Esmeraldas
+                    <span class="w-1.5 h-1.5 rounded-full bg-colombianEmerald-600 animate-pulse"></span>
+                </a>
+                <a href="#pilares" class="hover:text-champagne-600 transition-colors">Oro 18K</a>
+                <a href="#showroom" class="hover:text-champagne-600 transition-colors">Showroom</a>
+                <a href="#enlaces-rapidos" class="hover:text-champagne-600 transition-colors">Enlaces Rápidos</a>
+            </nav>
+
+            <!-- Acciones Header -->
+            <div class="flex items-center gap-4">
+                <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20deseo%20asesoría%20sobre%20una%20joya" 
+                   target="_blank" 
+                   class="hidden sm:inline-flex items-center gap-2 champagne-button font-semibold text-xs uppercase tracking-wider px-4 py-2.5 rounded-lg shadow-sm">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.53 2.016.82 3.125.82 3.18 0 5.767-2.586 5.768-5.766 0-3.18-2.587-5.766-5.767-5.766zm9.969 5.766c0 5.514-4.486 10-10 10-1.722 0-3.344-.436-4.764-1.2l-5.236 1.371 1.396-5.105c-.886-1.488-1.396-3.23-1.396-5.066 0-5.514 4.486-10 10-10 5.514 0 10 4.486 10 10z"/>
+                    </svg>
+                    Asesoría WhatsApp
+                </a>
+
+                <!-- Botón Menú Móvil -->
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2 text-stone-600 hover:text-champagne-600 focus:outline-none" aria-label="Abrir menú">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Menú Móvil Desplegable -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-[#EBE4DA] px-6 py-5 space-y-4 shadow-lg">
+            <a href="#catalogo" onclick="toggleMobileMenu()" class="block text-sm uppercase tracking-wider text-stone-700 hover:text-champagne-600 py-1">Colecciones</a>
+            <a href="#esmeraldas" onclick="toggleMobileMenu()" class="block text-sm uppercase tracking-wider text-colombianEmerald-700 font-semibold py-1">Esmeraldas Colombianas</a>
+            <a href="#pilares" onclick="toggleMobileMenu()" class="block text-sm uppercase tracking-wider text-stone-700 hover:text-champagne-600 py-1">Oro 18K & Garantía</a>
+            <a href="#showroom" onclick="toggleMobileMenu()" class="block text-sm uppercase tracking-wider text-stone-700 hover:text-champagne-600 py-1">Showroom en Colombia</a>
+            <a href="#enlaces-rapidos" onclick="toggleMobileMenu()" class="block text-sm uppercase tracking-wider text-stone-700 hover:text-champagne-600 py-1">Enlaces Rápidos</a>
+            <a href="https://wa.me/573108563553" target="_blank" class="w-full text-center champagne-button font-bold text-xs uppercase py-3 rounded-lg flex items-center justify-center gap-2 mt-2">
+                <span>📱</span> Chatear con un Asesor
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (PORTADA LUMINOSA DE ALTA GAMA) -->
+    <section class="relative overflow-hidden pt-14 pb-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#FAF8F5] to-[#F4EFE8]/60">
+        <!-- Resplandores suaves perlados y dorados de fondo -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[34rem] h-[34rem] bg-champagne-200/50 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute top-1/3 left-1/4 w-80 h-80 bg-colombianEmerald-100/40 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <!-- Insignia superior -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#EBE4DA] text-champagne-700 text-xs tracking-widest font-semibold uppercase mb-6 shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-champagne-500 animate-ping"></span>
+                Alta Joyería &bull; Gemas Auténticas
+            </div>
+
+            <!-- Título Principal con tu marca -->
+            <h1 class="font-serif-luxury text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-6">
+                <span class="block text-gold-champagne drop-shadow-sm">JOYAS &amp; GEMAS</span>
+                <span class="block text-stone-900 text-3xl sm:text-5xl md:text-6xl mt-1 tracking-widest">EVEREST</span>
+            </h1>
+
+            <!-- Descripción (fiel al texto original que proporcionaste) -->
+            <p class="text-stone-600 text-base sm:text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-10">
+                Tu destino definitivo para la alta joyería, gemas auténticas colombianas y diseños exclusivos en oro de 18K que perduran para siempre.
+            </p>
+
+            <!-- Acciones Principales -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+                <a href="#catalogo" class="w-full sm:w-auto champagne-button font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wider flex items-center justify-center gap-2 group shadow-soft-luxury">
+                    <span>Explorar Catálogo</span>
+                    <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </a>
+                <a href="#enlaces-rapidos" class="w-full sm:w-auto bg-white hover:bg-[#FAF8F5] border border-[#E5DEC3] text-stone-700 font-medium px-8 py-4 rounded-xl text-sm transition-all flex items-center justify-center gap-2 shadow-sm">
+                    <span>Enlaces Rápidos</span>
+                    <span class="text-champagne-600 text-xs">⚡</span>
+                </a>
+            </div>
+
+            <!-- Métricas de prestigio en Colombia -->
+            <div class="grid grid-cols-3 gap-4 pt-14 max-w-2xl mx-auto border-t border-[#EAE5DF] mt-14">
+                <div>
+                    <div class="font-serif-luxury text-2xl md:text-3xl font-bold text-champagne-700">+1.500</div>
+                    <div class="text-[11px] md:text-xs text-stone-500 uppercase tracking-wider mt-1 font-medium">Clientes Satisfechos</div>
+                </div>
+                <div>
+                    <div class="font-serif-luxury text-2xl md:text-3xl font-bold text-colombianEmerald-700">100%</div>
+                    <div class="text-[11px] md:text-xs text-stone-500 uppercase tracking-wider mt-1 font-medium">Esmeraldas Muzo/Chivor</div>
+                </div>
+                <div>
+                    <div class="font-serif-luxury text-2xl md:text-3xl font-bold text-champagne-700">18K</div>
+                    <div class="text-[11px] md:text-xs text-stone-500 uppercase tracking-wider mt-1 font-medium">Oro Ley 750 Nacional</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOTONERA DE ENLACES RÁPIDOS (EL CÓDIGO BASE ORIGINAL EN VERSIÓN LUMINOSA) -->
+    <section id="enlaces-rapidos" class="py-14 px-4 bg-[#F5F0E8]/70 border-y border-[#EBE4DA]">
+        <div class="max-w-md mx-auto">
+            <div class="text-center mb-7">
+                <span class="text-champagne-700 text-xs uppercase tracking-widest font-semibold">Atención Inmediata</span>
+                <h2 class="font-serif-luxury text-2xl font-bold text-stone-900 mt-0.5">Accesos Directos</h2>
+                <p class="text-xs text-stone-500 mt-1">Canales directos de consulta, catálogo y showroom</p>
+            </div>
+
+            <div class="space-y-3.5">
+                <!-- Botón Principal: WhatsApp -->
+                <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20deseo%20comunicarme%20con%20un%20asesor" 
+                   target="_blank" 
+                   class="flex items-center justify-between bg-gradient-to-r from-emerald-600 to-emerald-700 text-white font-semibold p-4 rounded-xl shadow-md hover:scale-[1.015] transition-all duration-200 group">
+                    <span class="flex items-center gap-3.5 text-sm md:text-base">
+                        <span class="text-xl">📱</span>
+                        <span>Escríbenos por WhatsApp</span>
+                    </span>
+                    <span class="group-hover:translate-x-1.5 transition-transform font-bold text-lg">&rarr;</span>
+                </a>
+
+                <!-- Botón: Catálogo -->
+                <a href="#catalogo" 
+                   class="flex items-center justify-between bg-white border border-[#E3D9CD] hover:border-champagne-400 p-4 rounded-xl hover:bg-[#FAF8F5] transition-all group shadow-sm">
+                    <span class="flex items-center gap-3.5 text-sm md:text-base text-stone-800 font-medium">
+                        <span class="text-xl">💎</span>
+                        <span>Ver Catálogo Digital 2026</span>
+                    </span>
+                    <span class="text-champagne-600 group-hover:translate-x-1.5 transition-transform text-lg">&rarr;</span>
+                </a>
+
+                <!-- Botón: Ubicación / Showroom -->
+                <a href="#showroom" 
+                   class="flex items-center justify-between bg-white border border-[#E3D9CD] hover:border-champagne-400 p-4 rounded-xl hover:bg-[#FAF8F5] transition-all group shadow-sm">
+                    <span class="flex items-center gap-3.5 text-sm md:text-base text-stone-800 font-medium">
+                        <span class="text-xl">📍</span>
+                        <span>Visita nuestro Showroom</span>
+                    </span>
+                    <span class="text-champagne-600 group-hover:translate-x-1.5 transition-transform text-lg">&rarr;</span>
+                </a>
+
+                <!-- Botón: Instagram -->
+                <a href="https://www.instagram.com/everest_joyeria?utm_source=qr&stkn=MW5idDFmemV5c21iZw==" 
+                   target="_blank" 
+                   class="flex items-center justify-between bg-white border border-[#E3D9CD] hover:border-champagne-400 p-4 rounded-xl hover:bg-[#FAF8F5] transition-all group shadow-sm">
+                    <span class="flex items-center gap-3.5 text-sm md:text-base text-stone-800 font-medium">
+                        <span class="w-7 h-7 rounded-lg bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 flex items-center justify-center text-white shadow-xs shrink-0">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </span>
+                        <span>Síguenos en Instagram</span>
+                    </span>
+                    <span class="text-champagne-600 group-hover:translate-x-1.5 transition-transform text-lg">&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PILARES DE CONFIANZA (MERCADO COLOMBIANO) -->
+    <section id="pilares" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <div class="bg-white p-7 rounded-2xl border border-[#E8E1D5] hover:border-champagne-400/80 transition-all shadow-sm hover:shadow-md">
+                <div class="w-12 h-12 rounded-xl bg-colombianEmerald-50 border border-colombianEmerald-200 flex items-center justify-center text-colombianEmerald-700 mb-4 text-2xl">
+                    🇨🇴
+                </div>
+                <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mb-2">Esmeraldas Colombianas</h3>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                    Provenientes de los yacimientos de Muzo, Chivor y Coscuez con certificación gemológica de autenticidad.
+                </p>
+            </div>
+
+            <div class="bg-white p-7 rounded-2xl border border-[#E8E1D5] hover:border-champagne-400/80 transition-all shadow-sm hover:shadow-md">
+                <div class="w-12 h-12 rounded-xl bg-champagne-100 border border-champagne-200 flex items-center justify-center text-champagne-700 mb-4 text-2xl">
+                    ⚖️
+                </div>
+                <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mb-2">Oro 18K Ley 750</h3>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                    Pureza garantizada con sello de contraste oficial. Oro amarillo, blanco o rosa de máxima durabilidad y nobleza.
+                </p>
+            </div>
+
+            <div class="bg-white p-7 rounded-2xl border border-[#E8E1D5] hover:border-champagne-400/80 transition-all shadow-sm hover:shadow-md">
+                <div class="w-12 h-12 rounded-xl bg-champagne-100 border border-champagne-200 flex items-center justify-center text-champagne-700 mb-4 text-2xl">
+                    🔒
+                </div>
+                <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mb-2">Envíos Asegurados</h3>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                    Entregas con póliza de valor declarado y empaque de seguridad discreto a todas las ciudades de Colombia.
+                </p>
+            </div>
+
+            <div class="bg-white p-7 rounded-2xl border border-[#E8E1D5] hover:border-champagne-400/80 transition-all shadow-sm hover:shadow-md">
+                <div class="w-12 h-12 rounded-xl bg-champagne-100 border border-champagne-200 flex items-center justify-center text-champagne-700 mb-4 text-2xl">
+                    🛠️
+                </div>
+                <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mb-2">Taller y Diseño 3D</h3>
+                <p class="text-xs text-stone-600 leading-relaxed">
+                    Diseños a la medida. Modelado digital 3D y forjado artesanal por maestros orfebres con décadas de tradición.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CATÁLOGO INTERACTIVO CON FILTROS -->
+    <section id="catalogo" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-[#EAE5DF]">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <span class="text-champagne-700 text-xs font-semibold tracking-widest uppercase">Colección Selecta</span>
+            <h2 class="font-serif-luxury text-3xl sm:text-4xl font-bold text-stone-900 mt-2">
+                Catálogo de Joyería Fina
+            </h2>
+            <p class="text-sm text-stone-600 mt-2">
+                Precios de referencia en Pesos Colombianos (COP). Cotiza o solicita personalización al instante por WhatsApp.
+            </p>
+
+            <!-- Botones de Filtro Luminosos -->
+            <div class="flex flex-wrap items-center justify-center gap-2 mt-8">
+                <button onclick="filterCategory('all')" id="btn-all" class="category-btn active px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-champagne-600 text-white shadow-sm transition-all">
+                    Todos
+                </button>
+                <button onclick="filterCategory('esmeraldas')" id="btn-esmeraldas" class="category-btn px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-white text-stone-700 hover:text-champagne-700 border border-[#DDD5C8] transition-all">
+                    Esmeraldas 🇨🇴
+                </button>
+                <button onclick="filterCategory('compromiso')" id="btn-compromiso" class="category-btn px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-white text-stone-700 hover:text-champagne-700 border border-[#DDD5C8] transition-all">
+                    Anillos de Compromiso
+                </button>
+                <button onclick="filterCategory('cadenas')" id="btn-cadenas" class="category-btn px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-white text-stone-700 hover:text-champagne-700 border border-[#DDD5C8] transition-all">
+                    Cadenas &amp; Dijes
+                </button>
+                <button onclick="filterCategory('matrimonio')" id="btn-matrimonio" class="category-btn px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-white text-stone-700 hover:text-champagne-700 border border-[#DDD5C8] transition-all">
+                    Argollas de Boda
+                </button>
+            </div>
+        </div>
+
+        <!-- Grid de Joyas -->
+        <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Producto 1: Anillo Esmeralda Muzo -->
+            <div class="product-item bg-white rounded-2xl overflow-hidden border border-[#E8E1D5] hover:border-champagne-400 transition-all duration-300 group flex flex-col justify-between shadow-sm hover:shadow-lg" data-category="esmeraldas">
+                <div class="relative overflow-hidden aspect-square bg-[#FAF8F5] flex items-center justify-center p-6">
+                    <span class="absolute top-3 left-3 bg-white/95 border border-colombianEmerald-600/30 text-colombianEmerald-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full z-10 shadow-sm">
+                        Esmeralda Muzo
+                    </span>
+                    <span class="absolute top-3 right-3 bg-white/95 text-champagne-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border border-champagne-300 z-10 shadow-sm">
+                        Oro 18K
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=700&q=80" 
+                         alt="Solitario Esmeralda Real Muzo" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                         loading="lazy">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="text-[11px] text-champagne-700 uppercase tracking-wider font-semibold">Anillos de Alta Gama</div>
+                        <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mt-1 group-hover:text-champagne-700 transition-colors">
+                            Solitario Esmeralda Real Muzo
+                        </h3>
+                        <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            Esmeralda colombiana talla clásica de 1.45 ct con orla de diamantes naturales montada en Oro Blanco de 18K.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-4 border-t border-[#EFE9DF] flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase font-medium">Precio de Referencia</span>
+                            <span class="font-serif-luxury text-stone-900 font-bold text-lg">$ 5.850.000 COP</span>
+                        </div>
+                        <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20me%20interesa%20el%20Solitario%20Esmeralda%20Real%20Muzo%20(Ref:%20EVER-01)" 
+                           target="_blank"
+                           class="bg-[#F8F4EE] hover:bg-champagne-600 text-champagne-800 hover:text-white border border-[#DDD3C2] font-semibold text-xs px-3.5 py-2 rounded-lg transition-all flex items-center gap-1.5">
+                            <span>Cotizar</span>
+                            <span>📱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2: Anillo Compromiso Diamante -->
+            <div class="product-item bg-white rounded-2xl overflow-hidden border border-[#E8E1D5] hover:border-champagne-400 transition-all duration-300 group flex flex-col justify-between shadow-sm hover:shadow-lg" data-category="compromiso">
+                <div class="relative overflow-hidden aspect-square bg-[#FAF8F5] flex items-center justify-center p-6">
+                    <span class="absolute top-3 left-3 bg-white/95 border border-champagne-400 text-champagne-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full z-10 shadow-sm">
+                        Diamante Certificado
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=700&q=80" 
+                         alt="Anillo Corona Everest Diamante" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                         loading="lazy">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="text-[11px] text-champagne-700 uppercase tracking-wider font-semibold">Compromiso & Boda</div>
+                        <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mt-1 group-hover:text-champagne-700 transition-colors">
+                            Solitario Corona Everest
+                        </h3>
+                        <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            Diamante corte brillante de 0.60 ct, claridad VVS1, engastado en Oro Amarillo de 18K con acabado pulido a espejo.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-4 border-t border-[#EFE9DF] flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase font-medium">Precio de Referencia</span>
+                            <span class="font-serif-luxury text-stone-900 font-bold text-lg">$ 4.200.000 COP</span>
+                        </div>
+                        <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20me%20interesa%20el%20Solitario%20Corona%20Everest%20(Ref:%20EVER-02)" 
+                           target="_blank"
+                           class="bg-[#F8F4EE] hover:bg-champagne-600 text-champagne-800 hover:text-white border border-[#DDD3C2] font-semibold text-xs px-3.5 py-2 rounded-lg transition-all flex items-center gap-1.5">
+                            <span>Cotizar</span>
+                            <span>📱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3: Dije Gota de Esmeralda Chivor -->
+            <div class="product-item bg-white rounded-2xl overflow-hidden border border-[#E8E1D5] hover:border-champagne-400 transition-all duration-300 group flex flex-col justify-between shadow-sm hover:shadow-lg" data-category="esmeraldas cadenas">
+                <div class="relative overflow-hidden aspect-square bg-[#FAF8F5] flex items-center justify-center p-6">
+                    <span class="absolute top-3 left-3 bg-white/95 border border-colombianEmerald-600/30 text-colombianEmerald-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full z-10 shadow-sm">
+                        Esmeralda Chivor
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=700&q=80" 
+                         alt="Gargantilla Gota de Esmeralda" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                         loading="lazy">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="text-[11px] text-champagne-700 uppercase tracking-wider font-semibold">Cadenas & Dijes</div>
+                        <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mt-1 group-hover:text-champagne-700 transition-colors">
+                            Colgante Gota Celeste de Chivor
+                        </h3>
+                        <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            Dije con esmeralda cristalina de Chivor de 1.8 ct y cadena de eslabones venecianos en Oro Amarillo 18K (45 cm).
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-4 border-t border-[#EFE9DF] flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase font-medium">Precio de Referencia</span>
+                            <span class="font-serif-luxury text-stone-900 font-bold text-lg">$ 3.490.000 COP</span>
+                        </div>
+                        <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20me%20interesa%20el%20Colgante%20Gota%20Celeste%20de%20Chivor%20(Ref:%20EVER-03)" 
+                           target="_blank"
+                           class="bg-[#F8F4EE] hover:bg-champagne-600 text-champagne-800 hover:text-white border border-[#DDD3C2] font-semibold text-xs px-3.5 py-2 rounded-lg transition-all flex items-center gap-1.5">
+                            <span>Cotizar</span>
+                            <span>📱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4: Argollas de Matrimonio Clásicas -->
+            <div class="product-item bg-white rounded-2xl overflow-hidden border border-[#E8E1D5] hover:border-champagne-400 transition-all duration-300 group flex flex-col justify-between shadow-sm hover:shadow-lg" data-category="matrimonio">
+                <div class="relative overflow-hidden aspect-square bg-[#FAF8F5] flex items-center justify-center p-6">
+                    <span class="absolute top-3 left-3 bg-white/95 border border-champagne-400 text-champagne-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full z-10 shadow-sm">
+                        Dúo Nupcial
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=700&q=80" 
+                         alt="Argollas Matrimonio Confort" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                         loading="lazy">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="text-[11px] text-champagne-700 uppercase tracking-wider font-semibold">Argollas de Matrimonio</div>
+                        <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mt-1 group-hover:text-champagne-700 transition-colors">
+                            Par de Argollas Alianza Eterna
+                        </h3>
+                        <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            Diseño anatómico confort de 4mm y 5mm en Oro 18K combinado. Incluye grabado de nombres y estuche nupcial.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-4 border-t border-[#EFE9DF] flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase font-medium">Precio el Par</span>
+                            <span class="font-serif-luxury text-stone-900 font-bold text-lg">$ 3.800.000 COP</span>
+                        </div>
+                        <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20me%20interesa%20el%20Par%20de%20Argollas%20Alianza%20Eterna%20(Ref:%20EVER-04)" 
+                           target="_blank"
+                           class="bg-[#F8F4EE] hover:bg-champagne-600 text-champagne-800 hover:text-white border border-[#DDD3C2] font-semibold text-xs px-3.5 py-2 rounded-lg transition-all flex items-center gap-1.5">
+                            <span>Cotizar</span>
+                            <span>📱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5: Cadena Tejido Italiano & Cruz en Oro -->
+            <div class="product-item bg-white rounded-2xl overflow-hidden border border-[#E8E1D5] hover:border-champagne-400 transition-all duration-300 group flex flex-col justify-between shadow-sm hover:shadow-lg" data-category="cadenas">
+                <div class="relative overflow-hidden aspect-square bg-[#FAF8F5] flex items-center justify-center p-6">
+                    <span class="absolute top-3 left-3 bg-white/95 text-champagne-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border border-champagne-300 z-10 shadow-sm">
+                        Tejido Milano 18K
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1611591475152-478311399c4c?auto=format&fit=crop&w=700&q=80" 
+                         alt="Cadena Tejido Italiano Oro 18K" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                         loading="lazy">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="text-[11px] text-champagne-700 uppercase tracking-wider font-semibold">Cadenas & Dijes</div>
+                        <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mt-1 group-hover:text-champagne-700 transition-colors">
+                            Cadena Figaro & Dije Cruz
+                        </h3>
+                        <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            Cadena maciza en Oro 18K de 55 cm y 12 gramos con broche perico reforzado de alta seguridad.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-4 border-t border-[#EFE9DF] flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase font-medium">Precio de Referencia</span>
+                            <span class="font-serif-luxury text-stone-900 font-bold text-lg">$ 6.100.000 COP</span>
+                        </div>
+                        <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20me%20interesa%20la%20Cadena%20Figaro%20Oro%2018K%20(Ref:%20EVER-05)" 
+                           target="_blank"
+                           class="bg-[#F8F4EE] hover:bg-champagne-600 text-champagne-800 hover:text-white border border-[#DDD3C2] font-semibold text-xs px-3.5 py-2 rounded-lg transition-all flex items-center gap-1.5">
+                            <span>Cotizar</span>
+                            <span>📱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 6: Aretes Esmeraldas Gota -->
+            <div class="product-item bg-white rounded-2xl overflow-hidden border border-[#E8E1D5] hover:border-champagne-400 transition-all duration-300 group flex flex-col justify-between shadow-sm hover:shadow-lg" data-category="esmeraldas">
+                <div class="relative overflow-hidden aspect-square bg-[#FAF8F5] flex items-center justify-center p-6">
+                    <span class="absolute top-3 left-3 bg-white/95 border border-colombianEmerald-600/30 text-colombianEmerald-700 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full z-10 shadow-sm">
+                        Esmeraldas Gemelas
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=700&q=80" 
+                         alt="Topos de Esmeralda Colombiana" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                         loading="lazy">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="text-[11px] text-champagne-700 uppercase tracking-wider font-semibold">Aretes & Topos</div>
+                        <h3 class="font-serif-luxury font-bold text-stone-900 text-lg mt-1 group-hover:text-champagne-700 transition-colors">
+                            Aretes Gota Verde Imperial
+                        </h3>
+                        <p class="text-xs text-stone-500 mt-2 line-clamp-2 leading-relaxed">
+                            Par de esmeraldas colombianas seleccionadas con tono verde profundo montadas en oro 18K con rosca de seguridad.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-4 border-t border-[#EFE9DF] flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-stone-400 block uppercase font-medium">Precio de Referencia</span>
+                            <span class="font-serif-luxury text-stone-900 font-bold text-lg">$ 2.950.000 COP</span>
+                        </div>
+                        <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20me%20interesan%20los%20Aretes%20Gota%20Verde%20Imperial%20(Ref:%20EVER-06)" 
+                           target="_blank"
+                           class="bg-[#F8F4EE] hover:bg-champagne-600 text-champagne-800 hover:text-white border border-[#DDD3C2] font-semibold text-xs px-3.5 py-2 rounded-lg transition-all flex items-center gap-1.5">
+                            <span>Cotizar</span>
+                            <span>📱</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Banner de Joyería Personalizada Luminoso -->
+        <div class="mt-14 bg-gradient-to-r from-[#FAF8F5] via-white to-[#F5EFE7] p-8 sm:p-10 rounded-3xl border border-champagne-300 text-center relative overflow-hidden shadow-sm">
+            <div class="relative z-10 max-w-2xl mx-auto">
+                <span class="text-champagne-700 text-xs uppercase tracking-widest font-semibold">¿Tienes una idea en mente?</span>
+                <h3 class="font-serif-luxury text-2xl sm:text-3xl font-bold text-stone-900 mt-1">
+                    Fabricamos tu Joya Personalizada
+                </h3>
+                <p class="text-xs sm:text-sm text-stone-600 mt-3 leading-relaxed">
+                    Envíanos tu foto de referencia o boceto por WhatsApp. Te compartimos el render 3D previo y cotización sin ningún compromiso.
+                </p>
+                <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20quiero%20cotizar%20un%20diseño%20personalizado" 
+                   target="_blank"
+                   class="mt-6 inline-flex items-center gap-2 champagne-button font-bold text-xs uppercase tracking-wider px-6 py-3.5 rounded-xl shadow-md">
+                    <span>📱 Enviar Foto por WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN EDITORIAL: EL TESORO DE COLOMBIA (ESMERALDAS) -->
+    <section id="esmeraldas" class="py-20 px-4 sm:px-6 lg:px-8 bg-[#F5EFE7]/50 border-t border-[#EAE5DF]">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-colombianEmerald-200 text-colombianEmerald-700 text-xs font-semibold uppercase tracking-wider mb-4 shadow-sm">
+                    <span>✨</span> Certificación Gemológica
+                </div>
+                <h2 class="font-serif-luxury text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-900 leading-tight">
+                    El Fuego Verde de <span class="text-colombianEmerald-700">Colombia</span>
+                </h2>
+                <p class="text-sm text-stone-600 mt-4 leading-relaxed">
+                    Colombia es el epicentro mundial de las esmeraldas más puras y codiciadas. En <strong>Joyas y Gemas Everest</strong> seleccionamos directamente en mina cada ejemplar, garantizando su cristalización, pureza, tono verde azulado característico y fuego interior natural.
+                </p>
+
+                <div class="space-y-4 mt-6">
+                    <div class="flex items-start gap-3.5">
+                        <div class="w-7 h-7 rounded-lg bg-colombianEmerald-100 text-colombianEmerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                        <div>
+                            <h4 class="text-sm font-semibold text-stone-900">Yacimientos de Muzo &amp; Chivor</h4>
+                            <p class="text-xs text-stone-600">Gemas extraídas con trazabilidad ética y respeto por el medio ambiente.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3.5">
+                        <div class="w-7 h-7 rounded-lg bg-colombianEmerald-100 text-colombianEmerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                        <div>
+                            <h4 class="text-sm font-semibold text-stone-900">Dictamen Gemológico Incluido</h4>
+                            <p class="text-xs text-stone-600">Certificación avalada por laboratorios especializados (CDTEC / GIA).</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3.5">
+                        <div class="w-7 h-7 rounded-lg bg-colombianEmerald-100 text-colombianEmerald-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+                        <div>
+                            <h4 class="text-sm font-semibold text-stone-900">Lapidación Artesanal Colombiana</h4>
+                            <p class="text-xs text-stone-600">Talla orientada a resaltar la máxima dispersión de luz y brillantez.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex gap-4">
+                    <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20deseo%20conocer%20gemas%20sueltas%20de%20esmeralda" 
+                       target="_blank"
+                       class="champagne-button font-semibold px-6 py-3 rounded-xl text-xs uppercase tracking-wider shadow-sm">
+                        Consultar Gemas Disponibles
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="aspect-[4/3] rounded-3xl overflow-hidden border border-[#E3D9CD] shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80" 
+                         alt="Esmeralda Colombiana de Alta Joyería" 
+                         class="w-full h-full object-cover"
+                         loading="lazy">
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white/95 border border-[#E0D5C3] p-5 rounded-2xl shadow-lg max-w-xs hidden sm:block">
+                    <div class="text-champagne-700 text-xs font-bold uppercase">Garantía Everest</div>
+                    <div class="text-sm font-serif-luxury font-bold text-stone-900 mt-1">Autenticidad Vitalicia</div>
+                    <p class="text-[11px] text-stone-500 mt-1">Respaldo gemológico por escrito y asesoría de por vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHOWROOM & UBICACIÓN EN COLOMBIA -->
+    <section id="showroom" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-[#EAE5DF]">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div>
+                <span class="text-champagne-700 text-xs font-semibold tracking-widest uppercase">Atención Privada</span>
+                <h2 class="font-serif-luxury text-3xl sm:text-4xl font-bold text-stone-900 mt-1">
+                    Visita Nuestro Showroom
+                </h2>
+                <p class="text-sm text-stone-600 mt-3 leading-relaxed">
+                    Vive una experiencia personalizada donde podrás ver las gemas bajo lupa gemológica y probarte las piezas con la asesoría directa de nuestros orfebres.
+                </p>
+
+                <div class="mt-6 space-y-4 text-xs text-stone-700">
+                    <div class="flex items-center gap-3">
+                        <span class="text-base text-champagne-600">📍</span>
+                        <span><strong>Dirección Showroom:</strong> Cra 6 # 12-78 piso 2 local 14, Centro Joyero, Bogotá D.C.</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-base text-champagne-600">⏰</span>
+                        <span><strong>Horario:</strong> Lunes a Sábado: 9:30 AM - 6:30 PM (Cita previa recomendada)</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-base text-champagne-600">🚗</span>
+                        <span><strong>Comodidad:</strong> Parqueaderos cercanos vigilados y seguridad para tu tranquilidad.</span>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20deseo%20agendar%20una%20cita%20privada%20en%20el%20showroom" 
+                       target="_blank" 
+                       class="champagne-button font-semibold px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 shadow-sm">
+                        <span>📅 Agendar Cita Privada</span>
+                    </a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Cra+6+%23+12-78+Bogota" 
+                       target="_blank" 
+                       class="bg-white hover:bg-[#FAF8F5] text-stone-700 border border-[#D5CCBC] px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all shadow-sm">
+                        <span>🗺️ Cómo Llegar (Maps)</span>
+                    </a>
+                    <button onclick="openSizeGuideModal()" 
+                            class="bg-white hover:bg-[#FAF8F5] text-stone-700 border border-[#D5CCBC] px-6 py-3.5 rounded-xl text-xs uppercase tracking-wider flex items-center gap-2 transition-all shadow-sm">
+                        <span>📏 Guía de Tallas</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tarjeta de Atención Nupcial -->
+            <div class="bg-white p-8 rounded-3xl border border-[#E8E1D5] text-center shadow-sm">
+                <div class="w-16 h-16 rounded-full bg-champagne-100 border border-champagne-300 flex items-center justify-center text-champagne-700 text-3xl mx-auto mb-4">
+                    💍
+                </div>
+                <h3 class="font-serif-luxury text-xl font-bold text-stone-900">Citas para Anillos de Compromiso</h3>
+                <p class="text-xs text-stone-500 mt-2 max-w-sm mx-auto leading-relaxed">
+                    ¿Planeas la propuesta perfecta? Te asesoramos en secreto en la elección de la gema, medida del dedo y entrega sorpresa en caja de cedro.
+                </p>
+                <div class="mt-6 pt-6 border-t border-[#EFEAE2] flex justify-center gap-6 text-stone-600 text-xs">
+                    <div>
+                        <span class="font-bold text-stone-800 block text-sm">Empaque Everest</span>
+                        Caja de lujo y luz LED
+                    </div>
+                    <div class="border-l border-[#EFEAE2] pl-6">
+                        <span class="font-bold text-stone-800 block text-sm">Ajuste de Talla</span>
+                        Primer ajuste sin costo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEDIOS DE PAGO COLOMBIA & FOOTER LUMINOSO -->
+    <footer class="bg-[#F3EFE8] border-t border-[#E5DEC3] pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Bloque de Medios de Pago Locales en Colombia -->
+            <div class="bg-white border border-[#E3D9CD] rounded-2xl p-6 mb-12 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+                <div>
+                    <span class="text-[11px] text-champagne-700 uppercase font-semibold tracking-wider">Pagos 100% Seguros en Colombia</span>
+                    <h4 class="text-sm font-semibold text-stone-800 mt-0.5">Recibimos todos los medios de pago bancarios y digitales</h4>
+                </div>
+                <div class="flex flex-wrap items-center gap-3 text-xs font-semibold text-stone-700">
+                    <span class="bg-[#FAF8F5] px-3.5 py-2 rounded-lg border border-[#DDD3C2] flex items-center gap-1.5 shadow-2xs">
+                        <span class="w-2 h-2 rounded-full bg-blue-600"></span> PSE
+                    </span>
+                    <span class="bg-[#FAF8F5] px-3.5 py-2 rounded-lg border border-[#DDD3C2] flex items-center gap-1.5 shadow-2xs">
+                        <span class="w-2 h-2 rounded-full bg-yellow-500"></span> Bancolombia
+                    </span>
+                    <span class="bg-[#FAF8F5] px-3.5 py-2 rounded-lg border border-[#DDD3C2] flex items-center gap-1.5 shadow-2xs">
+                        <span class="w-2 h-2 rounded-full bg-pink-500"></span> Nequi
+                    </span>
+                    <span class="bg-[#FAF8F5] px-3.5 py-2 rounded-lg border border-[#DDD3C2] flex items-center gap-1.5 shadow-2xs">
+                        <span class="w-2 h-2 rounded-full bg-red-600"></span> Daviplata
+                    </span>
+                    <span class="bg-[#FAF8F5] px-3.5 py-2 rounded-lg border border-[#DDD3C2] shadow-2xs">
+                        Tarjetas Crédito / Débito
+                    </span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-[#E3D9CD]">
+                <!-- Columna 1: Marca Everest -->
+                <div class="space-y-4 md:col-span-1">
+                    <span class="font-serif-luxury text-xl font-bold text-gold-champagne block">
+                        EVEREST
+                    </span>
+                    <p class="text-xs text-stone-600 leading-relaxed">
+                        Taller y casa joyera especializada en la confección de piezas exclusivas en Oro de 18K y comercialización de esmeraldas colombianas auténticas.
+                    </p>
+                    <div class="flex items-center gap-3 pt-2">
+                        <a href="https://www.instagram.com/everest_joyeria?utm_source=qr&stkn=MW5idDFmemV5c21iZw==" target="_blank" class="w-8 h-8 rounded-lg bg-white border border-[#DDD3C2] flex items-center justify-center text-stone-600 hover:text-pink-600 transition-colors shadow-sm" aria-label="Instagram">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/573108563553" target="_blank" class="w-8 h-8 rounded-lg bg-white border border-[#DDD3C2] flex items-center justify-center text-stone-600 hover:text-champagne-700 transition-colors shadow-sm" aria-label="WhatsApp">
+                            💬
+                        </a>
+                        <a href="mailto:contacto@everestjoyas.com" class="w-8 h-8 rounded-lg bg-white border border-[#DDD3C2] flex items-center justify-center text-stone-600 hover:text-champagne-700 transition-colors shadow-sm" aria-label="Email">
+                            ✉️
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Categorías -->
+                <div>
+                    <h5 class="text-xs uppercase tracking-widest text-stone-900 font-bold mb-4">Colecciones</h5>
+                    <ul class="space-y-2 text-xs text-stone-600">
+                        <li><a href="#catalogo" class="hover:text-champagne-700 transition-colors">Anillos de Compromiso</a></li>
+                        <li><a href="#catalogo" class="hover:text-champagne-700 transition-colors">Esmeraldas de Muzo y Chivor</a></li>
+                        <li><a href="#catalogo" class="hover:text-champagne-700 transition-colors">Argollas de Matrimonio</a></li>
+                        <li><a href="#catalogo" class="hover:text-champagne-700 transition-colors">Cadenas en Oro 18K</a></li>
+                        <li><a href="#catalogo" class="hover:text-champagne-700 transition-colors">Gemas Sueltas Certificadas</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Información & Garantías -->
+                <div>
+                    <h5 class="text-xs uppercase tracking-widest text-stone-900 font-bold mb-4">Garantía &amp; Servicios</h5>
+                    <ul class="space-y-2 text-xs text-stone-600">
+                        <li><a href="#pilares" class="hover:text-champagne-700 transition-colors">Certificado de Autenticidad</a></li>
+                        <li><a href="#showroom" class="hover:text-champagne-700 transition-colors">Mantenimiento y Brillo Gratuito</a></li>
+                        <li><button onclick="openSizeGuideModal()" class="hover:text-champagne-700 transition-colors text-left">Guía de Tallas para Anillo</button></li>
+                        <li><a href="#pilares" class="hover:text-champagne-700 transition-colors">Envíos Asegurados a Colombia</a></li>
+                        <li><a href="#catalogo" class="hover:text-champagne-700 transition-colors">Diseño Personalizado 3D</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Atención & Contacto -->
+                <div>
+                    <h5 class="text-xs uppercase tracking-widest text-stone-900 font-bold mb-4">Atención al Cliente</h5>
+                    <div class="space-y-2 text-xs text-stone-600">
+                        <p class="text-stone-900 font-semibold">WhatsApp Directo:</p>
+                        <p class="text-champagne-700 font-medium">+57 310 856 3553</p>
+                        <p class="text-stone-900 font-semibold pt-2">Showroom Principal:</p>
+                        <p>Cra 6 # 12-78 piso 2 local 14</p>
+                        <p class="text-stone-500 text-[11px]">Centro Joyero, Bogotá D.C.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-500 gap-4">
+                <p>&copy; 2026 Joyas y Gemas Everest. Todos los derechos reservados. Colombia.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-stone-700 transition-colors">Términos y Condiciones</a>
+                    <a href="#" class="hover:text-stone-700 transition-colors">Política de Tratamiento de Datos</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL INTERACTIVO: GUÍA DE TALLAS DE ANILLO -->
+    <dialog id="sizeGuideModal" class="bg-transparent backdrop:bg-stone-900/40 p-4 max-w-lg w-full rounded-2xl">
+        <div class="bg-white p-6 sm:p-8 rounded-2xl border border-champagne-300 text-stone-800 shadow-2xl relative">
+            <button onclick="closeSizeGuideModal()" class="absolute top-4 right-4 text-stone-400 hover:text-champagne-700 text-xl font-bold p-1" aria-label="Cerrar modal">&times;</button>
+            
+            <div class="flex items-center gap-3 mb-4">
+                <span class="text-2xl">📏</span>
+                <h3 class="font-serif-luxury text-xl font-bold text-champagne-700">Guía de Tallas para Anillos</h3>
+            </div>
+            
+            <p class="text-xs text-stone-600 leading-relaxed mb-4">
+                Para conocer la talla exacta del dedo en Colombia (escala US estándar):
+            </p>
+
+            <div class="bg-[#FAF8F5] rounded-xl p-4 border border-[#E8DFC0] space-y-2 text-xs text-stone-700 mb-5">
+                <p><strong>1. Método del anillo:</strong> Mide con una regla el <em>diámetro interno</em> de un anillo que le quede bien (en milímetros).</p>
+                <p><strong>2. Tabla de referencia rápida:</strong></p>
+                <ul class="grid grid-cols-2 gap-2 text-[11px] pt-1 text-stone-600">
+                    <li>• 15.7 mm &rarr; Talla 5</li>
+                    <li>• 16.5 mm &rarr; Talla 6</li>
+                    <li>• 17.3 mm &rarr; Talla 7</li>
+                    <li>• 18.1 mm &rarr; Talla 8</li>
+                    <li>• 18.9 mm &rarr; Talla 9</li>
+                    <li>• 19.8 mm &rarr; Talla 10</li>
+                </ul>
+            </div>
+
+            <p class="text-[11px] text-champagne-800/90 mb-5">
+                💡 <em>Nota:</em> Si no estás seguro de la talla para una sorpresa, en Everest incluimos el <strong>primer ajuste de talla totalmente gratis</strong>.
+            </p>
+
+            <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20deseo%20ayuda%20para%20determinar%20la%20talla%20de%20un%20anillo" 
+               target="_blank"
+               class="w-full champagne-button font-semibold text-xs uppercase py-3 rounded-xl flex items-center justify-center gap-2 shadow-sm">
+                <span>📱 Asesorarme con un Joyero por WhatsApp</span>
+            </a>
+        </div>
+    </dialog>
+
+    <!-- BOTÓN FLOTANTE PERMANENTE DE WHATSAPP -->
+    <a href="https://wa.me/573108563553?text=Hola%20Buenos%20días,%20deseo%20asesoría%20sobre%20una%20joya" 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20ba59] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center group"
+       aria-label="Contactar por WhatsApp">
+        <span class="absolute right-full mr-3 bg-white text-stone-800 text-xs font-semibold py-1.5 px-3 rounded-lg border border-[#DDD3C2] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none shadow-md">
+            ¿Hablamos por WhatsApp?
+        </span>
+        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+    </a>
+
+    <!-- SCRIPTS DE INTERACCIÓN -->
+    <script>
+        // Función para Menú Móvil
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Filtro de Categorías del Catálogo
+        function filterCategory(category) {
+            const items = document.querySelectorAll('.product-item');
+            const buttons = document.querySelectorAll('.category-btn');
+
+            // Actualizar apariencia de los botones de filtro
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-champagne-600', 'text-white', 'shadow-sm');
+                btn.classList.add('bg-white', 'text-stone-700');
+            });
+
+            const activeBtn = document.getElementById('btn-' + category);
+            if (activeBtn) {
+                activeBtn.classList.add('bg-champagne-600', 'text-white', 'shadow-sm');
+                activeBtn.classList.remove('bg-white', 'text-stone-700');
+            }
+
+            // Filtrar productos con animación simple
+            items.forEach(item => {
+                const categories = item.getAttribute('data-category');
+                if (category === 'all' || categories.includes(category)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Control del Modal de Guía de Tallas
+        function openSizeGuideModal() {
+            const modal = document.getElementById('sizeGuideModal');
+            if (modal) modal.showModal();
+        }
+
+        function closeSizeGuideModal() {
+            const modal = document.getElementById('sizeGuideModal');
+            if (modal) modal.close();
+        }
+
+        // Cerrar modal al hacer clic en el backdrop
+        const modal = document.getElementById('sizeGuideModal');
+        if (modal) {
+            modal.addEventListener('click', (e) => {
+                const rect = modal.getBoundingClientRect();
+                const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+                  rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+                if (!isInDialog) {
+                    modal.close();
+                }
+            });
+        }
+    </script>
+</body>
+</html>
